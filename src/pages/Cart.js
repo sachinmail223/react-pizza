@@ -17,7 +17,7 @@ const Cart = () => {
             return;
         }
 
-        fetch('/api/products/cart-items', {
+        fetch('https://star-spark-pasta.glitch.me/api/products/cart-items', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
